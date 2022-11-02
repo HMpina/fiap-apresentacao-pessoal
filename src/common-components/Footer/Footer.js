@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Flex, Box } from 'reflexbox';
+import { Flex } from 'reflexbox';
 import { Colors, Spaces } from '../../shared/DesignTokens';
 import { Button } from '../Button/Button';
 import { HeadingTwo } from '../HeadingTwo/HeadingTwo';

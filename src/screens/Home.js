@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { Flex, Box } from 'reflexbox';
-import styled from 'styled-components';
-import { Button } from '../common-components/Button/Button';
 import { HeadingOne } from '../common-components/HeadingOne/HeadingOne';
 import { HeadingTwo } from '../common-components/HeadingTwo/HeadingTwo';
 import { TextTwo } from '../common-components/TextTwo/TextTwo';
