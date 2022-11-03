@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Box } from "reflexbox";
+import Skeleton from 'react-loading-skeleton';
 import { Card } from "../../common-components/Card/Card";
 import {
   Colors,
@@ -14,22 +15,22 @@ const InformationGrid = styled(Box)`
   gap: ${Spaces.TWO};
 `;
 
-export function InfoPessoal({ cidade, estado, logradouro, bairro }) {
+export function InfoPessoalLoader() {
   return (
     <Card>
       <InformationGrid p={Spaces.TWO} mb={Spaces.ONE_HALF}>
         <Box>
-          <TextTwo as="div" color={Colors.NEUTRAL_WHITE}>
-            <strong>Endereço:</strong> {logradouro}
+          <TextTwo as="div" color={Colors.GRAY_200}>
+            <Skeleton />
           </TextTwo>
-          <TextTwo as="div" color={Colors.NEUTRAL_WHITE}>
-            <strong>Bairro:</strong> {bairro}
+          <TextTwo as="div" color={Colors.GRAY_200}>
+            <Skeleton />
           </TextTwo>
-          <TextTwo as="div" color={Colors.NEUTRAL_WHITE}>
-            <strong>Cidade:</strong> {cidade}
+          <TextTwo as="div" color={Colors.GRAY_200}>
+            <Skeleton />
           </TextTwo>
-          <TextTwo as="div" color={Colors.NEUTRAL_WHITE}>
-            <strong>Estado:</strong> {estado}
+          <TextTwo as="div" color={Colors.GRAY_200}>
+            <Skeleton />
           </TextTwo>
         </Box>
       </InformationGrid>

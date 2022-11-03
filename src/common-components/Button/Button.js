@@ -12,7 +12,7 @@ import {
 export const Button = styled.button`
 	border: none;
 	outline: none;
-	width: 100%;
+	width: 200px;
 	height: 40px;
 	font-family: ${FontFamilies.PRIMARY};
 	font-weight: ${FontWeights.BOLD};
